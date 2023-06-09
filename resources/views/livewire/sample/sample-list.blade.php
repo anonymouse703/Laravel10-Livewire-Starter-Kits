@@ -74,8 +74,8 @@
         <div class="modal-dialog" role="document">
             <livewire:sample.sample-form />
         </div>
-        @section('custom_script')
-@include('layouts.scripts.sample-script')
-@endsection
     </div>
 </div>
+@section('custom_script')
+    @include('layouts.scripts.sample-script')
+@endsection
